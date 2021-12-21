@@ -20,7 +20,7 @@ export default function MarketPage(props) {
 
 const FETCH_USEDITEM = gql`
     query fetchUseditem($useditemId : ID!) {
-        fetchUseditem(useditemId : $useditemID) {
+        fetchUseditem(useditemId : $useditemId) {
             images
             name
             remarks
